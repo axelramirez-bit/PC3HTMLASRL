@@ -1,0 +1,29 @@
+/* Estilos aplicados a todo el cuerpo de la página*/
+body {
+    margin: 2px;                 /* Espacio exterior alrededor de la página  */
+    padding: 2px;                /* Espacio interior del cuerpo de la página  */
+    background-color: #420000;   /* Color de fondo de la web  */
+    font-family: Arial, Helvetica, sans-serif; /* Tipografía para los textos de la página */
+}
+
+/* Estilos para el contenedor del menú (<nav>) */
+.menu {
+    display: flex;               /* la alineación de los hijos */
+    flex-direction: column;      /* Apila los enlaces de forma  uno abajo del otro */
+    align-items: center;         /* Centra el menu */
+    padding-top: 52px;           /* Separa el menú */
+}
+
+/* Estilos individuales para cada enlace (<a>) dentro del menú */
+.menu a {
+    color: #fff;                 /* Cambia el color del texto  a blanco */
+    text-decoration: none;       /* Elimina el subrayado que tienen los enlaces */
+    margin: 12px 0;              /* Separa los enlaces entre sí  */
+    padding: 10px 20px;          /* Espacio interno del botón */ 
+    transition: 0.3s;            /* Animacion suabe de cambio de color */
+    border-radius:  5px ;   
+}
+.menu a:hover{
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+}
